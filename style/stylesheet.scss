@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb {
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url("source/Background.jpg");
+  background-image: url("../source/Background.jpg");
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -46,7 +46,7 @@ a {
   transition: all 0.25s ease-in-out;
 }
 .contentScroll {
-  background-image: url("source/Background.jpg");
+  background-image: url("../source/Background.jpg");
   background-size: cover;
   background-attachment: fixed;
   box-shadow: 0.25em 0.25em 1em rgba($color: #000000, $alpha: 0.25);
@@ -399,7 +399,7 @@ li {
 }
 // Dark Mode
 .light {
-  background-image: url("source/BackgroundLight.jpg");
+  background-image: url("../source/BackgroundLight.jpg");
 }
 .light .search {
   background-color: white;
@@ -429,7 +429,7 @@ li {
   color: #333333;
 }
 .light .contentScroll {
-  background-image: url("source/BackgroundLight.jpg");
+  background-image: url("../source/BackgroundLight.jpg");
 }
 .light .settingsIcon {
   background-color: white;
