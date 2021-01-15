@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="source/Logo.png" type="image/gif" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>To Do App | by Dušan Papić</title>
+  </head>
+  <body>
+    <div class="content">
+      <p class="title">aPanicSpud's</p>
+      <h1 class="heading">TO DO APP</h1>
+      <p class="brief">
+        Hello there! Welcome to my To Do JavaScript Web Application.
+      </p>
+
+      <div class="settings">
+        <i
+          class="material-icons settingsIcon mode"
+          unselectable="on"
+          onselectstart="return false;"
+          onmousedown="return false;"
+          >wb_sunny</i
+        >
+        <i
+          class="material-icons settingsIcon reset"
+          unselectable="on"
+          onselectstart="return false;"
+          onmousedown="return false;"
+          >refresh</i
+        >
+        <i
+          class="material-icons settingsIcon info"
+          unselectable="on"
+          onselectstart="return false;"
+          onmousedown="return false;"
+          >info_outline</i
+        >
+      </div>
+      <form action="" class="forma">
+        <input
+          class="input"
+          type="text"
+          placeholder="Type To Add..."
+          required
+          autofocus
+          maxlength="50"
+        /><button class="inputBtn" type="submit">
+          <i class="material-icons" id="plus"> add </i>
+        </button>
+      </form>
+      <div class="searchContainer">
+        <input
+          type="text"
+          name=""
+          id=""
+          class="search"
+          placeholder="Search..."
+        />
+        <div class="select">
+          <select name="" id="">
+            <option value="All">All</option>
+            <option value="Completed">Completed</option>
+            <option value="Uncompleted">Uncompleted</option>
+            <option value="Favourites">Favourites</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <ol class="listContainer">
+      <!-- <div class="item">
+          <i class="material-icons zvezda">star_border</i>
+          <li class="number"></li>
+          <p class="itemText">To Do List Item</p>
+          <button class="itemBtn check">
+            <i class="material-icons">check</i></button
+          ><button class="itemBtn delete">
+            <i class="material-icons">delete_sweep</i>
+          </button>
+        </div> -->
+    </ol>
+    <div class="overlay">
+      <p>
+        Hello there!<br />
+        This is the guide that will help you use this app (if you already don't
+        know how to use it).<br />To add new items to the list, you can use
+        <span class="whiteHighlight">Type To Add...</span> input field.<br />After
+        typing in desired text, <span class="blueHighlight">Plus</span> button
+        will add it to the list underneath.
+      </p>
+      <p>
+        Next to every item on the list, there are two buttons,
+        <span class="redHighlight">Trash</span> button and
+        <span class="blueHighlight">Check</span> button.<br />Trash button will
+        remove selected item from the list.<br />Check button completes selected
+        task and moves it to the bottom of the list.<br /><span
+          class="starHighlight"
+          >Star</span
+        >
+        option on the left side allows user to mark selected task.
+      </p>
+      <p>
+        If you want to search for concrete item, you can use
+        <span class="whiteHighlight">Search</span> input field. Just start
+        typing and find desired item.<br />
+        <span class="blueHighlight">Filter</span> options on the right side
+        allows you to hide completed or uncompleted items.
+      </p>
+      <p>
+        On the upper right corner, you can see three buttons.
+        <span class="blueHighlight">Light</span> button will turn on the lights
+        (Light theme).<br />
+        <span class="redHighlight">Reset</span> button is there to help delete
+        everything and start over (don't use it if you are not done with your
+        tasks). <br />You already know what third button does, so I'm not going
+        to bother explaining it.
+      </p>
+      <p>
+        There is nothing more to say than thanks for visiting and I hope you
+        like my app.<br />See ya!
+      </p>
+      <i class="material-icons settingsIcon close">close</i>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
