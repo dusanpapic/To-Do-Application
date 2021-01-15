@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url("/source/Background.jpg");
+  background-image: url("source/Background.jpg");
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -59,7 +59,7 @@ a {
 }
 
 .contentScroll {
-  background-image: url("/source/Background.jpg");
+  background-image: url("source/Background.jpg");
   background-size: cover;
   background-attachment: fixed;
   -webkit-box-shadow: 0.25em 0.25em 1em rgba(0, 0, 0, 0.25);
@@ -529,7 +529,7 @@ li {
 }
 
 .light {
-  background-image: url("/source/BackgroundLight.jpg");
+  background-image: url("source/BackgroundLight.jpg");
 }
 
 .light .search {
@@ -569,7 +569,7 @@ li {
 }
 
 .light .contentScroll {
-  background-image: url("/source/BackgroundLight.jpg");
+  background-image: url("source/BackgroundLight.jpg");
 }
 
 .light .settingsIcon {
