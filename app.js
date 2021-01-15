@@ -200,4 +200,14 @@ function closeInformation() {
 
 function mode() {
   document.body.classList.toggle("light");
+  var zvezde = document.querySelectorAll(".zvezda");
+  for (var i = 0; i < zvezde.length; i++) {
+    if (zvezde[i].innerHTML == "star_border") {
+      if (document.body.classList.contains("light")) {
+        zvezde[i].style.color = "white";
+      } else {
+        zvezde[i].style.color = "#333333";
+      }
+    }
+  }
 }
